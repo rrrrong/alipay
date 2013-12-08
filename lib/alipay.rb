@@ -8,6 +8,8 @@ module Alipay
   class << self
     attr_accessor :pid
     attr_accessor :key
+    attr_accessor :ali_pub_key
+    attr_accessor :private_key   
     attr_accessor :seller_email
   end
 end
